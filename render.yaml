@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: crypto-telegram-bot
+    runtime: python
+    env: python
+    region: oregon  # or choose a region: frankfurt, singapore, etc.
+    plan: free
+    buildCommand: |
+      pip install --upgrade pip setuptools wheel
+      pip install -r requirements.txt
+    startCommand: python crytopay.py
+    pythonVersion: 3.10.12
+    autoDeploy: true
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: ENV
+        value: "production"
+      # Add your secrets like TELEGRAM_TOKEN, API_KEYS, DB_URL, etc.
