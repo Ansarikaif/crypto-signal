@@ -1640,4 +1640,3 @@ if __name__ == '__main__':
              logger.error("Could not find an event loop. If on Windows, you might need to set a different event loop policy.")
         else:
             raise
-�
