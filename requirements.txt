@@ -1,0 +1,9 @@
+python-telegram-bot
+httpx[http2]
+pandas
+pandas-ta
+websockets
+matplotlib
+python-dotenv
+pytz
+python-dateutil
