@@ -9,4 +9,5 @@ python-dotenv
 pytz
 python-dateutil
 psycopg2-binary
-setuptools
+setuptools==69.5.1
+wheel
