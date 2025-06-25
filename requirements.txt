@@ -1,6 +1,7 @@
 python-telegram-bot
 httpx[http2]
-pandas
+pandas==1.5.3
+numpy==1.23.5
 pandas-ta
 websockets
 matplotlib
